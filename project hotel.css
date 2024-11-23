@@ -45,6 +45,7 @@ cursor: pointer;
 }
 @keyframes hotel{
 	0%{
+		background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a9/62/d0/rajasthan-palace-hotel.jpg?w=700&h=-1&s=1");
 		background-image: url("hotel image8.jpg");
 		background-position: center;
 		background-size: cover;
@@ -52,6 +53,7 @@ cursor: pointer;
 
 	}
 	30%{
+		background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/98/e2/26/rajasthan-palace-hotel.jpg?w=700&h=-1&s=1");
 		background-image: url("hotel image9.jpg");
 		background-position: center;
 		background-size: cover;
