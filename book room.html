@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Book room</title>
+	<style type="text/css">
+		.box{
+			text-align: center	;
+			background-color: papayawhip;
+			margin-left: 350px;
+			margin-right: 350px;
+			padding: 20px;
+			opacity: 0.8;
+		}
+		img{
+			margin-left: 570px;
+		}
+		input{
+			padding-left: 100px;
+			margin-left: 70px;
+		}
+		option{
+			padding-left: 100px;
+			margin-left: 70px;	
+
+		}
+		.room{
+			margin-right: 220px;
+		}
+		.children{
+			margin-left: 55px;
+		}
+		.checkin{
+			margin-left: 100px;
+		}
+		.checkout{
+			margin-left: 95px;
+		}
+		body{
+			background-image: url("hotel image9.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center
+		}
+		a{
+			text-decoration: none;
+		}
+	
+	</style>
+</head>
+<body>
+	<img width="200px" src="C:\Users\admin\Desktop\hotel images\luxuary_hotel-removebg-preview (1).png">
+	<!-- <img class="background" width="500px" src="C:\Users\admin\Desktop\hotel images\hotel image 12.jpg"> -->
+	<div class="box">
+		<h3>Book Your Suite!</h3><br><br>
+		<form>
+			<label>Customer ID</label>
+			<input type="number" name="" required><br><br>
+			<label class="room">Type od Rooms</label>
+			<select>
+				<option>Luxury Room</option>
+				<option>Classic Room</option>
+				<option>Normal Room</option>
+
+			</select><br><br>
+			<label>No. od Rooms</label>
+			<input type="number" name="" required><br><br>
+			<label>No. of Adults</label>
+			<input type="number" name="" required><br><br>
+			<label>No. of Children</label>
+			<input class="children" type="number" name="" required><br><br>
+			<label>Check In </label>
+			<input class="checkin" type="number" name="" required><br><br>
+			<label>Check out</label>
+			<input class="checkout"  type="number" name="" required><br><br><br>
+			<h5>Payable amount is = <span style="color: red;">2999</span></h5><br>
+			  <button> BOOK NOW</button><br><br>
+			  <button><a href="book room detail.html">VIEW DETAILS</a></button>
+
+		</form>
+	</div>
+
+</body>
+</html>

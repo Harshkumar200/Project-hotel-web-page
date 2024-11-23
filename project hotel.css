@@ -1,0 +1,73 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.hotel_logo{
+	text-align: center;
+	margin-left: 600px;
+}
+body{
+	background-color: black;
+	color: white;
+}
+.navbar{
+	display: flex;
+	gap: 200px;
+	margin-left: 80px;
+}
+a{
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	padding: 7px;
+	border-radius: 20px;
+}
+a:hover{
+	color: white;
+	background-color: black;
+/*	box-shadow: 2px 2px 2px 5px white;*/
+cursor: pointer;
+}
+#heading{
+	text-align: center;
+/*	margin-left: 600px;*/
+}
+.animation{
+	width: 99vw;
+	height: 70vh;
+/*	background-color: white;*/
+	animation-name: hotel;
+	animation-duration: 17s;
+	animation-delay: 0.15s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes hotel{
+	0%{
+		background-image: url("hotel image8.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+
+	}
+	30%{
+		background-image: url("hotel image9.jpg");
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	60%{
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url("https://plus.unsplash.com/premium_photo-1661964071015-d97428970584?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG90ZWx8ZW58MHx8MHx8fDA%3D");
+	}
+
+	90%{
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-image: url("https://www.gingerhotels.com/resourcefiles/hotelprofile/udaipur-0.jpg?version=11232024045528");
+	}
+}
